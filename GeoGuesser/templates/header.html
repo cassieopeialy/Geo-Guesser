@@ -1,0 +1,60 @@
+<div class="main-nav-bar">
+    <div class="nav-bar">
+        <ul>
+            <li class="list-red">
+                <a href="{{ url_for ('home_bp.home')}}">Home</a>   
+            </li>
+            <li class="list-yellow">
+                <a href="{{ url_for ('auth_bp.login')}}"> Login </a>
+            </li>
+    
+            <li class="list-blue">
+                <a href="{{ url_for ('auth_bp.register')}}"> Register </a>
+            </li>
+    
+            <li class="list-purple">
+                <a href="{{ url_for ('home_bp.all_users')}}"> Users </a>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+    <div class="social-bar">
+        <ul>
+            <li>
+                <a href=""><img src="{{url_for('static', filename='img/insta.png')}}"></a>
+            </li>
+
+            <li>
+                <a href=""><img src="{{url_for('static', filename='img/twitter.png')}}"></a>
+            </li>
+
+            <li>
+                <a href=""><img src="{{url_for('static', filename='img/youtube.png')}}"></a>
+            </li>
+            
+
+        </ul>
+        
+    </div>
+
+</div>
+
+
+
+<div class="header">
+    
+    <div class="logo">
+        <h1><mark class="red">Geo</mark><mark class="blue">Guesser</mark></h1>
+        
+    </div>
+
+    
+   
+</div>
+
+
+
+

@@ -1,0 +1,4 @@
+env
+sqlite-tools
+data
+.env
